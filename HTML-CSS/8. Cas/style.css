@@ -1,60 +1,60 @@
 h1 {
-  color: #3f3fe2;
+	color: #3f3fe2;
 }
 
 div h1 {
-  color: rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
 }
 
 .class1 p {
-  color: rgb(62, 255, 62);
+	color: rgb(62, 255, 62);
 }
 
 .class1 {
-  background-color: chocolate;
-  width: 400px;
-  height: 300px;
-  /* border: 3px solid black; */
-  /* border: 5px double darkred; */
-  /* border: 5px dotted darkblue; */
-  /* border: 5px dashed darkred; */
-  /* margin: 20px; */
-  /* margin: 10px 20px 10px 15px; */
-  margin: 20px 25px;
-  /* padding: 15px; */
-  padding: 15px 10px;
+	background-color: chocolate;
+	width: 400px;
+	height: 300px;
+	/* border: 3px solid black; */
+	/* border: 5px double darkred; */
+	/* border: 5px dotted darkblue; */
+	/* border: 5px dashed darkred; */
+	/* margin: 20px; */
+	/* margin: 10px 20px 10px 15px; */
+	margin: 20px 25px;
+	/* padding: 15px; */
+	padding: 15px 10px;
 }
 
 #id1 {
-  background-color: rgb(196, 255, 0);
-  width: 400px;
-  height: 300px;
-  margin: 30px auto;
-  border: 3px solid chocolate;
-  padding: 15px 30px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+	background-color: rgb(196, 255, 0);
+	width: 400px;
+	height: 300px;
+	margin: 30px auto;
+	border: 3px solid chocolate;
+	padding: 15px 30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 #id1:hover {
-  background-color: #ffaaee;
+	background-color: #ffaaee;
 }
 
 #id1 p:hover {
-  background-color: aquamarine;
+	background-color: aquamarine;
 }
 
 #id1 p {
-  color: darkblue;
+	color: darkblue;
 }
 /* Prednost prilikom dodele stilova ima id u odnosu na klasu! */
 #id2 {
-  color: darkturquoise;
+	color: darkturquoise;
 }
 
 .class2 {
-  color: navajowhite;
+	color: navajowhite;
 }
-
+/*  */
 /* id koristiti ako se pojavljuje samo jednom u nekom tagu */
 /* Istu klasu mozemo na vise html tagova dodeliti. */
