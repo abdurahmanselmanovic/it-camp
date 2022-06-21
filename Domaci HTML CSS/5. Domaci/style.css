@@ -3,6 +3,9 @@
 	margin: 0;
 	font-family: "Poppins", sans-serif;
 }
+body {
+	background-color: black;
+}
 
 .main {
 	background-color: rgb(223, 223, 102);
