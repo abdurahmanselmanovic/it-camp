@@ -1,0 +1,12 @@
+.container {
+  display: inline-block;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  margin: 30px;
+}
+
+h1 {
+  margin: 0;
+}

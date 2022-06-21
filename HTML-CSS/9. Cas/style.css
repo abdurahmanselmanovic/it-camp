@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(252, 252, 137);
+  font-size: 16px;
+}
+
+.main {
+  background-color: chocolate;
+  /* opacity: 0.5; */
+  margin: 50px auto;
+  width: 450px;
+  height: 650px;
+  border-radius: 15px;
+  border: 2px solid rgb(131, 131, 243);
+  box-shadow: 4px 4px 8px rgba(8, 8, 70, 1), -4px -4px 8px rgb(8, 8, 70, 0.7);
+}
+
+.main img {
+  width: 450px;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+  /* text-transform: none; Defaultma vrednost */
+  font-size: 30px;
+  padding: 10px;
+}
+
+.main h3 {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.main p {
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-transform: none;
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: justify;
+  text-indent: 20px;
+  text-align-last: right;
+}
+
+.main img:hover {
+  content: url("./fishes.jpg");
+}
+
+.main p:hover {
+  background-color: rgb(84, 248, 62);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* smernice za domaci */
+/* tr:last-child */
+/* tr :first-of-type(1,2,3...) {}*/

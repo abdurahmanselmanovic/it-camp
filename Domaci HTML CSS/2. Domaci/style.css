@@ -1,0 +1,22 @@
+div {
+  background-color: steelblue;
+  border-radius: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: blanchedalmond;
+}
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  color: whitesmoke;
+}
