@@ -30,7 +30,6 @@ body {
 	/* display: none; Ovaj metod u potpunosti "brise" odredjeni sadrzaj */
 	/* visibility: hidden;  Ovaj metod zauzima prostor na stranici, medjutim nevidljiv je sadrzaj*/
 	visibility: hidden;
-	/*  */
 }
 .glavni:nth-of-type(3) {
 	margin: 50px auto;
