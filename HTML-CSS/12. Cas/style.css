@@ -6,7 +6,19 @@
 body {
 	font-family: "Exo 2", sans-serif;
 }
-
+.glavni {
+	margin: 50px auto;
+	background-color: darkseagreen;
+	width: 650px;
+	height: 400px;
+	/* overflow: visible; ovo je defaultna vrednost*/
+	/* overflow: hidden; gubi se text koji izlazi iz okvira visine kontejnera */
+	/* overflow: scroll; ododaje opciju scroola i za visinu i za sirinu */
+	/* overflow: auto;  dodaje opciju scrool gde je potrebno*/
+	overflow-y: scroll; /* specificno za y osu dodaje scroll*/
+}
 #icon {
 	color: brown;
+	background-color: aqua;
+	margin: 5px 7px 5px 7px;
 }
