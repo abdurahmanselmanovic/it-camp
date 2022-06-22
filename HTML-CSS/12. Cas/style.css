@@ -6,9 +6,34 @@
 body {
 	font-family: "Exo 2", sans-serif;
 }
-.glavni {
+.glavni:nth-of-type(1) {
 	margin: 50px auto;
 	background-color: darkseagreen;
+	width: 650px;
+	height: 400px;
+	/* overflow: visible; ovo je defaultna vrednost*/
+	/* overflow: hidden; gubi se text koji izlazi iz okvira visine kontejnera */
+	/* overflow: scroll; ododaje opciju scroola i za visinu i za sirinu */
+	/* overflow: auto;  dodaje opciju scrool gde je potrebno*/
+	overflow-y: scroll; /* specificno za y osu dodaje scroll*/
+}
+.glavni:nth-of-type(2) {
+	margin: 50px auto;
+	background-color: silver;
+	width: 650px;
+	height: 400px;
+	/* overflow: visible; ovo je defaultna vrednost*/
+	/* overflow: hidden; gubi se text koji izlazi iz okvira visine kontejnera */
+	/* overflow: scroll; ododaje opciju scroola i za visinu i za sirinu */
+	/* overflow: auto;  dodaje opciju scrool gde je potrebno*/
+	overflow-y: scroll; /* specificno za y osu dodaje scroll*/
+	/* display: none; Ovaj metod u potpunosti "brise" odredjeni sadrzaj */
+	/* visibility: hidden;  Ovaj metod zauzima prostor na stranici, medjutim nevidljiv je sadrzaj*/
+	visibility: hidden;
+}
+.glavni:nth-of-type(3) {
+	margin: 50px auto;
+	background-color: red;
 	width: 650px;
 	height: 400px;
 	/* overflow: visible; ovo je defaultna vrednost*/
