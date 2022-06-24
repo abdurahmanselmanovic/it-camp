@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+.main {
+	display: inline-block;
+	margin: 40px 20px;
+	background: aqua;
+	width: 400px;
+	height: 400px;
+	overflow: auto;
+}
+
+/* .main:nth-of-type(2) {
+	margin: 20px auto;
+	background: rgb(255, 0, 221);
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+} */
+
+/* Ako u display svojstvu stavimo block to nam onemogucuje dodatne stilove tog kontejnera sto nam ne ide u korist.
+ Pozeljno je koristiti inline-block kako nam ostaje mogucnost dodatne manipulacije tog kontejnera. */
+
+/* HTML elements  */
+/* Postoje:
+ 1.Blok level elements
+ <p>
+ <div>
+ <h1 do <h6>
+ <ol>
+ <ul>
+ <li>
+ <main>
+ <section>
+ <article>
+ --------------------- 
+ 2. Inline elements
+ <span>
+ <a>
+ <img>
+ <button>*/
