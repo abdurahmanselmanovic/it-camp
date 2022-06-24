@@ -7,7 +7,7 @@ body {
 	background-color: black;
 }
 
-.main:nth-last-of-type(1) {
+.main:nth-of-type(1) {
 	background-color: blue;
 	width: 500px;
 	height: 400px;
@@ -18,7 +18,7 @@ body {
 	border: dotted 2px yellow;
 }
 
-.main:nth-last-of-type(2) {
+.main:nth-of-type(2) {
 	background-color: rgb(233, 233, 233);
 	width: 500px;
 	height: 400px;
@@ -29,7 +29,7 @@ body {
 	border: dotted 2px yellow;
 	visibility: hidden;
 }
-.main:nth-last-of-type(3) {
+.main:nth-of-type(3) {
 	background-color: red;
 	width: 500px;
 	height: 400px;
