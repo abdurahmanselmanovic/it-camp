@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+.main {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 15px;
+	background: blue;
+	padding: 20px 15px;
+	border: 2px dotted black;
+	overflow: auto;
+}
+
+.main span {
+	color: red;
+}
+
+.main:nth-last-of-type(2):hover {
+	background-color: pink;
+}
