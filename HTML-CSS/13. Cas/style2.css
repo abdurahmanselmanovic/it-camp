@@ -36,4 +36,6 @@
 	background-size: 200px 100px;
 	/* 200px sirina 100px visina */
 	background-repeat: no-repeat;
+	/* background-size: cover; za prekrivanje celog kontejnera */
+	/* background-size: contain; povecava fotografiju kako bi se popunio kontejner ali ne sece je */
 }
