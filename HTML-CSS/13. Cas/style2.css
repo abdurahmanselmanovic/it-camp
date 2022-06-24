@@ -15,10 +15,25 @@
 	overflow: auto;
 }
 
-.main span {
+.main .text2:hover {
+	background-color: pink;
+}
+
+.text1 span {
 	color: red;
 }
 
-.main:nth-last-of-type(2):hover {
-	background-color: pink;
+.text2 span {
+	color: yellow;
+}
+
+.text3 span {
+	color: blueviolet;
+}
+
+.main {
+	background-image: url("./image.jpg");
+	background-size: 200px 100px;
+	/* 200px sirina 100px visina */
+	background-repeat: no-repeat;
 }
