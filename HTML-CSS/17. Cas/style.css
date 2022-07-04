@@ -78,7 +78,7 @@ nav a:hover {
 
 footer {
 	background-color: rgb(62, 62, 78);
-	width: 100%;
+	width: 100vw;
 	height: 200px;
 	text-align: center;
 	margin-top: -100px;
