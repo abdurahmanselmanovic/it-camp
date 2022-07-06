@@ -1,12 +1,30 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: "Montserrat", sans-serif;
 }
 
-i {
-	height: 30px;
+.header {
+	background-color: coral;
+	width: 20vw;
+	height: 8rem;
+	padding: 10px;
+	border: 2px dashed darkblue;
+	/* box-sizing: border-box; Novi atribut */
+}
+.after {
+	background-color: purple;
+	width: 20vw;
+	height: 8rem;
+	border: 2px dotted darkred;
+	padding: 10px;
+}
+.footer {
+	background-color: orange;
+	width: 20vw;
+	height: 8rem;
 }
