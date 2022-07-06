@@ -29,7 +29,6 @@ body {
 	background: #f32fff;
 	/* U slucaju primene order svojstva neophodno je dodeliti vrednost */
 	/* za svaki od elementata koji pripadaju parent kontejneru sa display flex */
-	/*  */
 	order: 2;
 }
 .box:nth-of-type(2) {
