@@ -11,9 +11,12 @@ body {
 .parent {
 	background: #555555;
 	margin: 0px auto;
-	width: 1000px;
+	width: 80vw;
 	height: 40vw;
 	display: flex;
+	/* Default je nowrap */
+	/* flex-wrap: nowrap; */
+	/* flex-wrap: wrap; */
 
 	justify-content: space-between;
 
