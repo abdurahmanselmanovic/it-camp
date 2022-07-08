@@ -25,7 +25,9 @@
 }
 
 .box:nth-of-type(1) {
+	/* flex-grow svojstvo sluzi da definisemo sirinu naseg kontejnera. Nije praksa koristiti uz njega i width */
 	/* flex-grow: 1; */
+	/* flex-shrink svojstvo dolazi do izrazaja kada suzavamo ekran. Sto je veca vrednost ovog svojstva, to se taj box vise suzava. */
 	flex-shrink: 1;
 	background-color: blue;
 	/* align-self: flex-end; */
