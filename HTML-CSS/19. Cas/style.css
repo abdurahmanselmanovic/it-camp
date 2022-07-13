@@ -20,7 +20,7 @@
 .box {
 	display: flex;
 	height: 20vh;
-	flex-basis: 40vh;
+	/* flex-basis: 40vh; */
 	/* width: 40vh; */
 	justify-content: center;
 	align-items: center;
@@ -28,10 +28,11 @@
 
 .box:nth-of-type(1) {
 	/* flex-grow svojstvo sluzi da definisemo sirinu naseg kontejnera. Nije praksa koristiti uz njega i width */
-	/* flex-grow: 1; */
+	flex-grow: 2;
 	/* flex-shrink svojstvo dolazi do izrazaja kada suzavamo ekran. Sto je veca vrednost ovog svojstva, to se taj box vise suzava. */
-	/* flex-shrink: 1; */
+	flex-shrink: 1;
 	background-color: blue;
+	/* flex: 1 2; */
 	/* align-self: flex-end; */
 	/* order: 2; */
 	/* width: 100px; */
@@ -40,14 +41,16 @@
 .box:nth-of-type(2) {
 	background-color: red;
 	/* align-self: center; */
-	/* flex-grow: 1; */
-	/* flex-shrink: 2; */
+	flex-grow: 1;
+	flex-shrink: 2;
 	/* order: 3 */
+	/* flex: 1 4; */
 }
 
 .box:nth-of-type(3) {
 	/* order: 1; */
-	/* flex-grow: 1; */
-	/* flex-shrink: 3; */
+	flex-grow: 1;
+	flex-shrink: 3;
+	/* flex: 2 2; */
 	background-color: orange;
 }
