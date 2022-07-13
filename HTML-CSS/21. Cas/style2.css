@@ -62,7 +62,7 @@ h1 {
 	border-radius: 50%;
 	animation: myanimation1 3s ease-in forwards alternate infinite;
 }
-
+/*  */
 @keyframes myanimation1 {
 	30% {
 		transform: translatey(400px);
