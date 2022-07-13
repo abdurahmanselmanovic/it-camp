@@ -22,16 +22,27 @@ h1 {
 	width: 200px;
 	height: 200px;
 	background-color: #a644af;
-	/* definisemo ponasanje nase animacije */
-	/* property duration timing function */
-	/*          svojstvo trajanje funkcija za izvrsavanje            delay */
-	transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.25s;
-	/* transition-delay: ; */
-	/* transition-timing-function: ; */
-	/* -o-transition-property: ; */
-	/* transition-duration: ; */
+	/*     naziv animacije trajanje funkcija ostaje na mestu izvrsenja broj ponavljanja svako pomeranje predstavlja jedno izvrsenje */
+	animation: myanimation 3s ease-in forwards infinite alternate;
 }
 
 .parent:hover .child {
-	transform: translatey(100%);
+	/* animation: myanimation 1s ease-in forwards infinite; */
+	/* animation: myanimation 3s ease-in forwards 3; */
+	animation-play-state: paused;
+}
+
+@keyframes myanimation {
+	33% {
+		background-color: red;
+		transform: translate(300px, 100px);
+	}
+	66% {
+		background-color: yellowgreen;
+		transform: translate(350px, 160px);
+	}
+	100% {
+		transform: translatey(173%);
+		border-radius: 50%;
+	}
 }
