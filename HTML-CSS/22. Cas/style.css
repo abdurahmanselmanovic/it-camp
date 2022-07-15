@@ -125,3 +125,95 @@
 	width: 500px;
 	height: 400px;
 }
+
+@media (max-width: 600px) {
+	.navbar {
+		background-color: #123fc3;
+		display: flex;
+		flex-basis: 100%;
+		height: 56vw;
+		flex-direction: column;
+		color: #fff;
+	}
+
+	.navbar a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 18px;
+	}
+	.navbar button {
+		height: 40px;
+		border-radius: 35px;
+		border: none;
+
+		color: #123fc3;
+	}
+	.navbar h1 {
+		font-weight: 800;
+		margin: 0 0%;
+	}
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		margin-left: -50px;
+	}
+
+	.navbar li {
+		margin-left: 50px;
+		list-style-type: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.cards {
+		flex-basis: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 35vw;
+		flex-direction: column;
+		margin-top: 700px;
+	}
+
+	.card {
+		padding: 13px;
+		background-color: rgb(245, 237, 237);
+		width: 50%;
+		height: 90vw;
+		margin: 50px auto;
+	}
+
+	.cardtext {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: start;
+	}
+	.card p {
+		margin: 5px 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.home {
+		display: flex;
+		flex-direction: column;
+		margin-top: 650px;
+		justify-content: center;
+		align-items: center;
+	}
+	.textdiv {
+		display: flex;
+		margin-left: -70px;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+
+	.home img {
+		width: 100%;
+		margin: 30px auto;
+		height: 30vw;
+	}
+}
