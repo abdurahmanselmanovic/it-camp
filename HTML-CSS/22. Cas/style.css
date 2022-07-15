@@ -54,6 +54,10 @@
 	-webkit-box-shadow: 5px 4px 5px 0px rgba(255, 165, 0, 0.75);
 	-moz-box-shadow: 5px 4px 5px 0px rgba(255, 165, 0, 0.75);
 }
+.navbar a:hover {
+	transition: 0.5s;
+	color: grey;
+}
 .main {
 	display: flex;
 	justify-content: center;
