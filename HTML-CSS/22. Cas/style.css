@@ -47,8 +47,12 @@
 }
 
 .navbar button:hover {
-	transition: 1s;
-	background-color: orange;
+	transition: 0.5s;
+	background-color: #ffa500;
+	color: white;
+	box-shadow: 5px 4px 5px 0px rgba(255, 165, 0, 0.75);
+	-webkit-box-shadow: 5px 4px 5px 0px rgba(255, 165, 0, 0.75);
+	-moz-box-shadow: 5px 4px 5px 0px rgba(255, 165, 0, 0.75);
 }
 .main {
 	display: flex;
