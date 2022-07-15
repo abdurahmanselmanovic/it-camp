@@ -130,6 +130,7 @@
 
 @media (max-width: 600px) {
 	.navbar {
+		position: static;
 		background-color: #123fc3;
 		display: flex;
 		flex-basis: 100%;
