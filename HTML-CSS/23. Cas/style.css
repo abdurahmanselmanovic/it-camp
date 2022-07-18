@@ -5,3 +5,39 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 }
+
+.parent {
+	margin: 20px auto;
+	width: 80%;
+	height: 600px;
+	background-color: cornflowerblue;
+	/* overflow: auto; */
+	display: grid;
+	/* grid-template-columns: 200px 200px 120px;          */
+	/* grid-template-columns: 1fr 2fr 1fr; */
+	grid-template-columns: repeat(4, 150px);
+}
+
+.box {
+	/* width: 150px; */
+	height: 150px;
+}
+
+.box1 {
+	background-color: red;
+}
+.box2 {
+	background-color: peru;
+}
+.box3 {
+	background-color: purple;
+}
+.box4 {
+	background-color: blue;
+}
+.box5 {
+	background-color: tan;
+}
+.box6 {
+	background-color: saddlebrown;
+}
