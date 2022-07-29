@@ -120,6 +120,9 @@ footer a {
 	text-decoration: none;
 }
 
+footer p {
+	margin-bottom: 5px;
+}
 .socialicons {
 	margin-top: -40px;
 }
