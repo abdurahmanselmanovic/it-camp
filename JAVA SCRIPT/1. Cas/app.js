@@ -5,6 +5,10 @@ document.getElementById("paragraf").innerHTML =
 console.log("Danas je bilo pretoplo. Cekam septembar za nesto svezije vreme.");
 
 // Tipovi podataka u JavaScriptu:
+
+// Za proveru tipa varijable (promenljive) u JavaScriptu se koristi
+// typeof operator.
+
 // Postoje
 // 1. primitivni(Primitive) tipovi podataka
 // 2. Neprimitivni(Non-Primitive) tipovi podataka
@@ -28,3 +32,15 @@ String("Danas je duvao jak vetar.");
 1.14;
 0.99999974;
 Number(45);
+
+// 1.3 BigInt - Ovaj tip podataka nam zluzi za skladistenje brojeva cija vrednost
+//              prelazi granicu Number tipa podatka.
+//      Zapisivanje velikih brojeva:
+
+BigInt(943126371263716317633126);
+
+// 1.4. Boolean - Predstavlja logicki entitet i on moze imati dve vrednosti:
+//             1. true
+//             2. false
+//             Najveca primena ovog tipa podataka se nalazi u kondicionalima,
+//             tj. u slucajevima ispitivanja da li je odredjeni uslov zadovoljen ili ne.
