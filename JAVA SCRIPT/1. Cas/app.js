@@ -44,3 +44,18 @@ BigInt(943126371263716317633126);
 //             2. false
 //             Najveca primena ovog tipa podataka se nalazi u kondicionalima,
 //             tj. u slucajevima ispitivanja da li je odredjeni uslov zadovoljen ili ne.
+//      Zapisivanje Boolean-a:
+// Boolean("odredjeni uslov"); => kao izlaz dobijamo true ili false
+
+// 1.5 undefined - kada odredjenu promenljivu deklarisemo ali joj ne dodelimo vrednost,
+//                 tada undefined predstavlja i vrednost i tip za tu promenljivu.
+
+// vrednost text
+// tip string number...
+
+// 1.6 null - Tip podatka null se javlja za nepostojecu ili promenljivu koja nije validna
+
+// 1.7 Symbol - To je novi tip podatka u Javascriptu.
+//              Koristi se za anonimne i jedinstvene vrednosti.
+
+Symbol("Kako je bilo vreme?");
