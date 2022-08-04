@@ -59,4 +59,3 @@ BigInt(943126371263716317633126);
 //              Koristi se za anonimne i jedinstvene vrednosti.
 
 Symbol("Kako je bilo vreme?");
-//
