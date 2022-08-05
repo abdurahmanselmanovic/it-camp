@@ -59,3 +59,24 @@ BigInt(943126371263716317633126);
 //              Koristi se za anonimne i jedinstvene vrednosti.
 
 Symbol("Kako je bilo vreme?");
+
+//  2. Ne primitivni tipovi podataka (Non-primaive data types).
+//	   Primitivni tipovi podataka se koriste za skladistenje promenljivih(Varijabli)
+// 	   Koje imaju jednu vrednost
+//     Dok za promenljive koje sadrze vise vrednosti(ili kompleksne vrednosti)
+//     koristiomo ne primitivne tipove podataka (Non-Primitive data types.)
+
+// Primeri ne primitivnih tipova podataka:
+
+// 2.1 Arrays (Nizove) - Nizovi se koriste za skladistenje vise podataka
+// 						 unutar jedne promenljive.
+// 						 Nizovi u JavaScriptu imaju mogucnost skladistenja
+//                       Elementara razlicitih tipova podataka.
+// Zapisivanje nizova:
+// Niz stringova
+["Talib", "Muhamed", "Amina", "Ahmed", "Mervan"][
+	// Niz brojeva
+	(15, 17, 18, 19, 18)
+];
+// Niz koju sebi sadrzi razlicite tipove podataka
+["Talib", 15, false, "Ahmed", 19, true];
