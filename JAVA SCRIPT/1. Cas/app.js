@@ -113,3 +113,6 @@ new Set(["jabuka", "sljiva"]);
 // 					 Zapisivanje se izvrsava na nesto drugaciji nacin
 
 new Map([["apples, 500"], ["bananas", 300], ["oranges", 200]]);
+
+// Treba imati na umu da svi tipovi podataka koji nisu primitivni tipovi podataka
+// imaju Object tip kada ispitujemo preko funkcije typeof.
