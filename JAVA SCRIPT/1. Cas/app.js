@@ -78,5 +78,38 @@ Symbol("Kako je bilo vreme?");
 	// Niz brojeva
 	(15, 17, 18, 19, 18)
 ];
-// Niz koju sebi sadrzi razlicite tipove podataka
-["Talib", 15, false, "Ahmed", 19, true];
+// 2. Nacin zapisivanja nizova (nacin koji nije preporucljiv za koriscenje)
+new Array(["crnac,belac,kinez "])[
+	// Niz koju sebi sadrzi razlicite tipove podataka
+	("Talib", 15, false, "Ahmed", 19, true)
+];
+// 2.2 Objects (objekti) - Objekti su GLAVNA STVAR U PROGRAMSKOM JEZIKU JAVASCRIPT.
+// 						   Objekti sluze za skladistenje nekih podataka i oni se zapisuju
+//                         po principu (name,value) par.
+// 						   Objekti takodje mogu sadrzati razlicite tipove podataka.
+// // Zapisivanje objekata:{
+// 	marka:"bmw"
+// 	godinaProizvodnje: 2006,
+// 	boja: "crna",
+// 	kubikaza: "2000ks"
+// }
+
+// 2. Nacin zapisivanje objekata (nacin koji nije preporucljiv)
+new Object({
+	punoletnost: false,
+	ime: "ahmed",
+	starost: 19,
+});
+
+// 2.3 Set (Setovi) - Setovi su slizni nizovima, sa razlikom kod zapisivanja
+//Izmedju ostalih, najbitnija karakteristika kod setova
+//da oni ne mogu imati duplikate
+//
+//
+// Zapisuju se
+new Set(["jabuka", "sljiva"]);
+
+// 2.4 Maps (Mape) - Predstavljaju ne primitivni tip podataka, koji je vrlo slican objektu.
+// 					 Zapisivanje se izvrsava na nesto drugaciji nacin
+
+new Map([["apples, 500"], ["bananas", 300], ["oranges", 200]]);
