@@ -68,3 +68,12 @@ var m, n;
 m = "Danas je bilo";
 n = "lepo vreme";
 console.log(m + " " + n);
+
+console.log(55 + m);
+
+// Neke karakteristike vezane za +,-,*,/
+console.log(5 + "5");
+console.log(5 - "4");
+console.log(5 - "4ds"); // uvek u slucaju nemogucnosti konvertovanja nekog stringa u broj, JS nam vraca NaN (NotANumber)
+console.log(5 * "4");
+console.log(5 / "4");
