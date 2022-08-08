@@ -38,4 +38,10 @@ z = 12;
 const w = 16;
 // const w = 14; ne moze se redeklarisati
 console.log(w);
-w = 20;
+// w = 20;
+
+{
+	w = 22;
+	console.log(w);
+}
+// Karakteristike koje vaze za let kod block scope_a vaze u za promenljive definisane putem const.
