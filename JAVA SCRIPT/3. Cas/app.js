@@ -40,8 +40,11 @@ const w = 16;
 console.log(w);
 // w = 20;
 
-{
-	w = 22;
-	console.log(w);
-}
 // Karakteristike koje vaze za let kod block scope_a vaze u za promenljive definisane putem const.
+
+// let dozvoljava sledece;
+let prom;
+prom = 40;
+
+// const je striktna i kod nje mora odjednom izvrisiti deklaracija i inicijalizacija.
+const prom2 = 12;
