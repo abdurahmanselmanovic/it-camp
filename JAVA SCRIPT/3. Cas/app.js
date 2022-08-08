@@ -48,3 +48,7 @@ prom = 40;
 
 // const je striktna i kod nje mora odjednom izvrisiti deklaracija i inicijalizacija.
 const prom2 = 12;
+
+// const ne dozvoljava reinicijalizaciju (ponovno dodeljivanje vrednosti).
+// Medjutim mozemo izvrsiti neke izmene kadada se radi o nizu ili objektu
+// (izmene u smislu  da se promeni vrednost nekog elementa, da se doda element...).
