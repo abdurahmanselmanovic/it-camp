@@ -6,7 +6,7 @@
 // 4. Operatori poredjenja;
 // 5. Logicki operatori;
 // 6. Tipovni operatori;
-
+//
 //                                  1. Aritmeticki operatori
 //  +sabiranje
 console.log(5 + 2);
