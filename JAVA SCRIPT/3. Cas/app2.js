@@ -77,3 +77,5 @@ console.log(5 - "4");
 console.log(5 - "4ds"); // uvek u slucaju nemogucnosti konvertovanja nekog stringa u broj, JS nam vraca NaN (NotANumber)
 console.log(5 * "4");
 console.log(5 / "4");
+
+console.log((c += 2));
