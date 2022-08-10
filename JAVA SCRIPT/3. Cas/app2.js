@@ -138,3 +138,20 @@ let prom15, prom16;
 prom15 = 46;
 prom16 = -46;
 console.log(prom15 <= prom16);
+
+// ? - ternarni operator
+// sintaxa za njega je:
+// condition ? exprIfTrue : exprIfFalse
+
+// 5. JS Logicki operatori;
+//&&  - Logicko i (and)
+let var1, var2;
+var1 = 40;
+var2 = 17;
+console.log(var1 > 20 && var2 < 20); // moraju oba zahteva da budu tacna (true)
+console.log(var1 > 20 && var2 > 20); // jedan uslov nije ispunjen (false)
+
+// || - Logicko ili
+var1 = 40;
+var2 = 17;
+console.log(var1 > 20 || var2 > 20); //mora samo jedan uslov da bude ispunjen
