@@ -79,3 +79,35 @@ console.log(5 * "4");
 console.log(5 / "4");
 
 console.log((c += 2));
+
+//  4. Operatori poredjenja
+
+// ==  - Proverava jednakost vrednosti
+var r, t;
+r = 56;
+t = -56;
+console.log(r == t); // false
+
+// ===  -  Proverava jednakost vrednosti i tipa
+let prom1, prom2;
+prom1 = 14;
+prom2 = "14";
+// console.log(prom1 == prom2); bolje je koristiti operator ===
+console.log(prom1 === prom2);
+
+// != Proverava nejednakost vrednosti
+let prom3, prom4;
+prom3 = 25;
+prom4 = "25";
+console.log(prom3 != prom4);
+
+// !== Proverava nejednakost vrednosti ili nejednakost tipa
+let prom5, prom6;
+prom5 = 25;
+prom6 = 25;
+console.log(prom5 !== prom6);
+
+let prom7, prom8;
+prom7 = 26;
+prom8 = "25";
+console.log(prom7 !== prom8);
