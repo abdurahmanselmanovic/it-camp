@@ -111,3 +111,30 @@ let prom7, prom8;
 prom7 = 26;
 prom8 = "25";
 console.log(prom7 !== prom8);
+
+// > - Proverava da li je prva promenljiva veca od druge
+
+let prom9, prom10;
+prom9 = 52;
+prom10 = 25;
+console.log(prom9 > prom10);
+
+// > - Proverava da li je prva promenljiva manja od druge
+
+let prom11, prom12;
+prom11 = 52;
+prom12 = 25;
+console.log(prom11 > prom12);
+
+// >= - Proverava da li je prva promenljiva veca ili jednaka od druge
+
+let prom13, prom14;
+prom13 = 50;
+prom14 = 50;
+console.log(prom13 >= prom14);
+// <= - Proverava da li je prva promenljiva manja ili jednaka od druge
+
+let prom15, prom16;
+prom15 = 46;
+prom16 = -46;
+console.log(prom15 <= prom16);
