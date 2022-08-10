@@ -155,3 +155,24 @@ console.log(var1 > 20 && var2 > 20); // jedan uslov nije ispunjen (false)
 var1 = 40;
 var2 = 17;
 console.log(var1 > 20 || var2 > 20); //mora samo jedan uslov da bude ispunjen
+
+// ! - Logicko ne (not)
+let isSunny = false;
+console.log(!isSunny); //okrece vrednost (true)
+
+// 6. Tipovni operatori
+//  typeof - Vraca tip promenljive
+let var4 = 16.9;
+let var5 = "Trenutno je 26stepeni";
+var isSunnyy = false;
+console.log(typeof var4);
+console.log(typeof var5);
+console.log(typeof isSunnyy);
+
+// instanceof - Ispituje da li je tip odredjene promenljive instanca od objekta npr.
+let obj = {
+	ime: "Mojeime",
+	prezime: "Moje prezime",
+};
+
+console.log(obj instanceof Object);
