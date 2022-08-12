@@ -60,13 +60,60 @@
 
 // Napisati program koji, ako je uneti broj veci od 0 stampa poruku broj je pozitivan, u suprotnom broj je negativan
 
-const number1 = Number(prompt("Unesite broj"));
-if (number1 > 0) {
-	console.log("Broj je pozitivan");
-} else if (number1 < 0) {
-	console.log("Broj je negativan");
-} else if (number1 === 0) {
-	console.log("Broj je 0");
-} else {
-	console.log("Niste uneli broj");
+// const number1 = Number(prompt("Unesite broj"));
+// if (number1 > 0) {
+// 	console.log("Broj je pozitivan");
+// } else if (number1 < 0) {
+// 	console.log("Broj je negativan");
+// } else if (number1 === 0) {
+// 	console.log("Broj je 0");
+// } else {
+// 	console.log("Niste uneli broj");
+// }
+
+// // Switch naredba:
+// switch (izraz) {
+// 	case x:
+// 		//blok koda
+// 		break;
+// 	case y:
+// 		// blok koda
+// 		break;
+// 	case z:
+// 		// blok koda
+// 		break;
+// 	default:
+// 	// blok koda
+// }
+// Ako je zadovoljen slucaj x, izvrsice se 77 linija koda, ako nije, prelazimo na sledeci slucaj...
+// Kad se dodje do break rezervisane reci Switch naredba prestaje izvrsava.
+
+// Ako se izostavi break, to znaci da ce se izvrsiti linija koda od sledeceg slucaja
+// (koji zapravo nije zadovoljen) i to nije nesto sto zelimo da se desi
+
+// default rezervisana rec odreduje kod koji ce se izvrisiti ako nijeadn od prethodnih slucajeva nije zadovoljen
+
+// Korisnik unosi broj koji mora biti izmedju 12 i 15(ukljucuju se oba) koristeci switch naredbu izvrisiti ispis u konzoli
+// broj koji je korisnik uneo pod zadovoljenim uslovom.
+const broj = Number(prompt("Unesite broj izmedju 12 i 15"));
+
+switch (broj) {
+	case 12: {
+		console.log("Uneli ste broj", broj);
+		break;
+	}
+	case 13: {
+		console.log("Uneli ste broj", broj);
+		break;
+	}
+	case 14: {
+		console.log("Uneli ste broj", broj);
+		break;
+	}
+	case 15: {
+		console.log("Uneli ste broj", broj);
+		break;
+	}
+	default:
+		console.log("Niste uneli broj iz trazenog opsega");
 }
