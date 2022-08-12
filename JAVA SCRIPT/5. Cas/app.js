@@ -48,10 +48,25 @@
 // Uslov za parnost broja je :
 
 // Napisati program koji provera da li je uneti broj od strane korisnika paran ili neparan, i ispisuje odgovaajucu poruku
-const broj = Number(prompt("Unesite broj"));
+// const broj = Number(prompt("Unesite broj"));
 
-if (broj % 2 === 0) {
-	console.log("Broj je paran");
-} else if (broj % 2 !== 0) {
-	console.log("broj je neparan");
+// if (broj % 2 === 0) {
+// 	console.log("Broj je paran");
+// } else if (broj % 2 == 1) {
+// 	console.log("broj je neparan");
+// } else {
+// 	console.log("niste uneli broj");
+// }
+
+// Napisati program koji, ako je uneti broj veci od 0 stampa poruku broj je pozitivan, u suprotnom broj je negativan
+
+const number1 = Number(prompt("Unesite broj"));
+if (number1 > 0) {
+	console.log("Broj je pozitivan");
+} else if (number1 < 0) {
+	console.log("Broj je negativan");
+} else if (number1 === 0) {
+	console.log("Broj je 0");
+} else {
+	console.log("Niste uneli broj");
 }
