@@ -68,5 +68,5 @@ if (number1 > 0) {
 } else if (number1 === 0) {
 	console.log("Broj je 0");
 } else {
-	console.log("Niste uneli broj");
+	console.log("Niste uneli brojj");
 }
