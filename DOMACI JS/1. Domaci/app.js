@@ -15,11 +15,23 @@
 // 	console.log("Povrsina pravougaonika je", a * b);
 // }
 
-const x = Number(prompt("Unesite x"));
-const y = Number(prompt("Unesite y"));
+// const x = Number(prompt("Unesite x"));
+// const y = Number(prompt("Unesite y"));
 
-if (y !== 0) {
-	console.log(x / y);
-} else if (y === 0) {
-	console.log("Deljenje nije moguce");
+// if (y !== 0) {
+// 	console.log(x / y);
+// } else if (y === 0) {
+// 	console.log("Deljenje nije moguce");
+// }
+
+const broj1 = Number(prompt("Unesite prvi broj: "));
+const broj2 = Number(prompt("Unesite drugi broj: "));
+if (isNaN(broj1) || isNaN(broj2)) {
+	console.log("Niste uneli korektne vrednosti za brojeve.");
+} else if (broj1 === broj2) {
+	console.log("Povrsina kvadrata na osnovu unetih brojeva je:" + broj1 * broj2);
+} else {
+	console.log(
+		"Povrsina pravougaonika na osnovu unetih brojeva je: " + broj1 * broj2
+	);
 }
