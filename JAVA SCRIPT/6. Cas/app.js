@@ -49,3 +49,9 @@ for (let i = 1; i <= 10; i++) {
 		console.log(i);
 	}
 }
+
+// Ako se nadje break (keyword) unutar petlje to znaci da od tog trenutka
+// petlja prestaje sa iteracijama, odnosno zavrsava se.
+
+// Ako se nadje continue(keyword) unutar petlje to znaci da se ta iteracija preskace
+// , tj. odmah se prelazi na sledecu iteraciju.
