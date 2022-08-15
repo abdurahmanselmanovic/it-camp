@@ -73,3 +73,14 @@ for (y; y <= 20; y++) {
 	}
 	console.log(y);
 }
+
+// 3. nacin
+for (var z = 2; z <= 20; z += 2) {
+	console.log(z);
+}
+
+// Domaci:
+// 1.
+// Ispisati neparne brojeve od 1 do 20 na dva nacina.
+// 2.
+// Ispisati sve brojeve od 50 do 100 (ukljucuji oba) koji su deljivi sa 5.
