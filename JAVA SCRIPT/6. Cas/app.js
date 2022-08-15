@@ -35,23 +35,41 @@
 // }
 
 // Ispisati sve brojeve od 1 do 10, osim broja 2 i broja 5.
-let x = 1;
-for (x; x <= 10; x++) {
-	if (x === 5 || x === 2) {
-		continue;
-	} else {
-		console.log(x);
-	}
-}
+// let x = 1;
+// for (x; x <= 10; x++) {
+// 	if (x === 5 || x === 2) {
+// 		continue;
+// 	} else {
+// 		console.log(x);
+// 	}
+// }
 // OBRNUTA LOGIKA
-for (let i = 1; i <= 10; i++) {
-	if (i !== 2 && i !== 5) {
-		console.log(i);
-	}
-}
+// for (let i = 1; i <= 10; i++) {
+// 	if (i !== 2 && i !== 5) {
+// 		console.log(i);
+// 	}
+// }
 
 // Ako se nadje break (keyword) unutar petlje to znaci da od tog trenutka
 // petlja prestaje sa iteracijama, odnosno zavrsava se.
 
 // Ako se nadje continue(keyword) unutar petlje to znaci da se ta iteracija preskace
 // , tj. odmah se prelazi na sledecu iteraciju.
+
+// Ispisati parne brojeve od 1 do 20 na dva nacina.
+// 1. nacin
+let x = 1;
+for (x; x <= 20; x++) {
+	if (x % 2 === 0) {
+		console.log(x);
+	}
+}
+// 2. nacin
+// Obrnuta logika
+let y = 1;
+for (y; y <= 20; y++) {
+	if (y & (2 !== 1)) {
+		continue;
+	}
+	console.log(y);
+}
