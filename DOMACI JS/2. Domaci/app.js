@@ -35,10 +35,10 @@
 // 	console.log(y);
 // }
 // 4. ZADATAK
-// var sum = 0;
-// for (var x = 10; x <= 20; x++) {
-// 	if (x % 2 === 1) {
-// 		sum += x;
-// 	}
-// }
-// console.log(sum);
+var sum = 0;
+for (var x = 10; x <= 20; x++) {
+	if (x % 2 === 1) {
+		sum += x;
+	}
+}
+console.log(sum);
