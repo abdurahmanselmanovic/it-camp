@@ -41,4 +41,4 @@ for (var x = 10; x <= 20; x++) {
 		sum += x;
 	}
 }
-console.log(sum);
+console.log("Suma neparnih brojeva u opsegu od 10 do 20 je " + sum);
