@@ -34,3 +34,11 @@
 // 	let y = 2 * x;
 // 	console.log(y);
 // }
+
+var sum = 0;
+for (var x = 10; x <= 20; x++) {
+	if (x % 2 === 1) {
+		sum += x;
+	}
+}
+console.log(sum);
