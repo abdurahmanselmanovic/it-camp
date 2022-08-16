@@ -34,25 +34,3 @@
 // 	let y = 2 * x;
 // 	console.log(y);
 // }
-
-// let x = 10;
-// for (x; x < 21; x++) {
-// 	if (x % 2 === 1) {
-// 	}
-// }
-
-// let x = 10;
-// for (x; x <= 20; x++) {
-// 	if (x % 2 === 1) {
-
-// 	}
-// }
-
-var i = 10;
-var sum = 0;
-if (i % 2 == 0) i++;
-while (i < 20) {
-	sum += i;
-	i += 2;
-}
-console.log(i);
