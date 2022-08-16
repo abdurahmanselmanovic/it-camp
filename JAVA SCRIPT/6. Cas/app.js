@@ -84,3 +84,7 @@ for (var z = 2; z <= 20; z += 2) {
 // Ispisati neparne brojeve od 1 do 20 na dva nacina.
 // 2.
 // Ispisati sve brojeve od 50 do 100 (ukljucuji oba) koji su deljivi sa 5.
+// 3.
+// Ispisati dvostruku vrednost prirodnih brojeva od 6 do 14.
+// 4.
+// Suma neparnih prirodnih brojeva od 10 do 20.
