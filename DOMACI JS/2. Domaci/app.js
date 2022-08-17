@@ -35,10 +35,16 @@
 // 	console.log(y);
 // }
 // 4. ZADATAK
-var sum = 0;
-for (var x = 10; x <= 20; x++) {
-	if (x % 2 === 1) {
-		sum += x;
-	}
+// var sum = 0;
+// for (var x = 10; x <= 20; x++) {
+// 	if (x % 2 === 1) {
+// 		sum += x;
+// 	}
+// }
+// console.log("Suma neparnih brojeva u opsegu od 10 do 20 je " + sum);
+
+let suma = 0;
+for (let i = 11; i <= 20; i += 2) {
+	suma += i;
 }
-console.log("Suma neparnih brojeva u opsegu od 10 do 20 je " + sum);
+console.log(suma);
