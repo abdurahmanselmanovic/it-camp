@@ -73,11 +73,11 @@
 
 // ispisati brojeve od 1 do 6
 
-let i = 1;
-do {
-	console.log(i);
-	i++;
-} while (i <= 5);
+// let i = 1;
+// do {
+// 	console.log(i);
+// 	i++;
+// } while (i <= 5);
 
 // nedostatak do while ptelje kroz primer
 
