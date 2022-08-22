@@ -42,3 +42,11 @@ for (let i = 3; i < 18; i++) {
 
 aritSredina = zbirBrojeva / brojBrojeva;
 console.log("Aritmetika sredina broejva je: " + aritSredina);
+
+// korisnik unosi 2 broja
+// na osnovu toga koji je broj manji, iteracija se vrsi od manjeg do veceg broja.
+// izracunati aritmetikcu sredinu brojeva koji su deljivi sa 5
+
+// korisnik unosi broj iz intervala [12 16)
+// na osnovu unetog broja, iteracija se vrsi od njega do 1(ukljucujuci)
+// ispisati svaki broj iz iteracije, njegov kvadrat i vrednost broja umanjenu za 25.
