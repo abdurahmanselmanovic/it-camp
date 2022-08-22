@@ -71,3 +71,22 @@ for (let i = [0]; i < recenica.length; i++) {
 }
 
 console.log(recenica5);
+
+recenica =
+	"banana je omiljeno Talibovo voce. Banana nam stize iz Paname. I banane su jako zdrave.";
+let recenica6 = "";
+
+// Napraviti novu recenicu gde ce umesto slova a pisati 't'. Dok ako se posle slova a
+// nalazi slovo "n" pisace "d" umesto a
+
+for (let i = [0]; i < recenica.length - 1; i++) {
+	if (recenica[i] === "a" && recenica[i + 1] === "n") {
+		recenica6 += "d";
+	} else if (recenica[i] === "a") {
+		recenica6 += "t";
+	} else {
+		recenica6 += recenica[i];
+	}
+}
+
+console.log(recenica6);
