@@ -88,5 +88,3 @@ for (let i = [0]; i < recenica.length - 1; i++) {
 		recenica6 += recenica[i];
 	}
 }
-
-console.log(recenica6);
