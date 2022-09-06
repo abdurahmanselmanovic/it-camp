@@ -29,4 +29,3 @@ function zbirDvaBroja(prviBroj, drugiBroj) {
 // Prilikom pozivanja funckije u zagradi stavljamo argumente na osnovu kojih se funkcija izvrsava
 //                      argumenti
 console.log(zbirDvaBroja(5, 14));
-// 
