@@ -116,3 +116,4 @@ myArrowFunc(
 	"Nakon danasnjeg testa cemo znati ko ce nastaviti sa drugim ciklusom it campa"
 );
 console.log(recenica1);
+// promenljive koje su definisane unutar function scoe nisu dostupne u global scope-u
