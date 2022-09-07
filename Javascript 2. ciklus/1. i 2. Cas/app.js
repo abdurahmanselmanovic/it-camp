@@ -94,7 +94,6 @@ const arrowFunction1 = (argument) => {
 
 console.log(arrowFunction1(14));
 
-let recenica1 = "";
 const myArrowFunc = (recenica) => {
 	for (i = 0; i <= recenica.length; i++) {
 		if (
