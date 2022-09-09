@@ -68,7 +68,7 @@ console.log(mySecondFunction2(2, 10));
 // ako ih je vise, na posljenjim pozicijama.
 // Ne sme se desiti slucaj da prva vrednost bude defaultna a nakon nje ona koja nema
 // defaultnu vrednost.
-
+// 
 // arrow function:
 const arrowFunction = () => {
 	// sintaksa
