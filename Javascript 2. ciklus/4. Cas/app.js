@@ -48,3 +48,25 @@ console.log(recenica5.toUpperCase());
 
 let recenica6 = "Sta AKO ZELIMO DA RECENICA bude ispisana malim slovima";
 console.log(recenica6.toLowerCase());
+
+// Jedan od nacina da spojimo dva stringa je putem + operatora. Danas radimo drugi nacin
+// koriscenjem metode concat()
+
+var sentence1 = "Ako predjemo prvi ciklus";
+var sentence2 = " nastavljamo sa ozbiljim bavljenjem JS programskim jezikom";
+
+var sentence1And2 = sentence1.concat(sentence2, ".");
+console.log(sentence1And2);
+
+// Sve metode vezane za stringove nam vracaju novi string.
+// One zapravo ne modifikuju postojeci.
+
+// Domaci
+// Napraviti funkciju koja trazi od korisnika da unese neku recenicu, zatim funkcija vraca
+// datu recenicu u vise oblika(spojenu u jedan string.)
+// 1. recenicu ispisanu velikim slovima
+// 2. recenicu ispisanu malim slovima
+// 3. pola recenice ispisano velikim slovima, pola recenice ispisano malim slovima
+// 4. Ako se u recenici nadje rec 'skola' neka bude zamenjena recju "fakultet" /g.
+// 5. Neka bude ispisano prvih 10 karaktera unete recenice
+// 6. Neka bude ispisano poslednjih 10 karaktera unete recenice
