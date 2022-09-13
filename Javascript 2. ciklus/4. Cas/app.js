@@ -70,6 +70,3 @@ console.log(sentence1And2);
 // 4. Ako se u recenici nadje rec 'skola' neka bude zamenjena recju "fakultet" /g.
 // 5. Neka bude ispisano prvih 10 karaktera unete recenice
 // 6. Neka bude ispisano poslednjih 10 karaktera unete recenice
-
-let unos = prompt("Unesite recenicu")
-const function = (recenica) =>
