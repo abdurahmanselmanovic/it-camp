@@ -19,14 +19,14 @@ console.log(niz2);
 var niz3 = recenica.split("");
 console.log(niz3);
 
-// Postoje 4 JS search metode:
+// JS search metode:
 // 1. indexOf()
 // indexOf metoda nam vraca index pocetne reci koju trazimo.
 
 var recenica =
 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac malesuada libero. Phasellus vel enim id justo scelerisque gravida nec sit amet nulla. Aliquam erat volutpat. Duis dictum lorem magna, id molestie magna condimentum ac. Phasellus tristique sollicitudin nisl, vitae pretium nibh. Nulla facilisi. Morbi pharetra felis vitae rhoncus ultricies.";
 
-let index1 = recenica.indexOf("amet");
+let index1 = recenica.indexOf("amet", 22); //22 se ukljucuje
 console.log(index1);
 // Ako trazimo index nepostojeceg stringa rezultat ce biti -1
 let index2 = recenica.indexOf("Pizza");
@@ -41,3 +41,16 @@ console.log(index3);
 
 let index5 = recenica.lastIndexOf("Pizza");
 console.log(index5);
+
+// 3. Search()
+// search() metoda nam vraca index trazenog stringa:
+
+let index6 = recenica.search("b");
+console.log(index6);
+
+// 4. match() metoda nam vraca niz.
+var matchingB = recenica.match("b");
+console.log(matchingB);
+
+var matchingB2 = recenica.match(/b/gi);
+console.log(matchingB2);
