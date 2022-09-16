@@ -53,4 +53,11 @@ var matchingB = recenica.match("b");
 console.log(matchingB);
 
 var matchingB2 = recenica.match(/b/gi);
-console.log(matchingB2);
+
+// includes() nam vraca boolean
+var recenica = "Jos najvise jedan cas cemo raditi string metode";
+
+var isPresence = recenica.includes("cas");
+console.log(isPresence);
+var isPresence2 = recenica.includes("skola");
+console.log(isPresence2);
