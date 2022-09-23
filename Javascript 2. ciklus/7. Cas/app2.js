@@ -25,7 +25,8 @@ const myFunction = () => {
 		return "Opseg sirine moze biti izmedju 0 i 100";
 	} else {
 		return 2 * duzina + 2 * sirina;
-	}
+	}	
 };
 
 console.log(myFunction());
+// 
