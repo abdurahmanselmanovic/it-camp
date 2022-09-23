@@ -21,7 +21,7 @@ Duis molestie nunc dolor, et sodales quam accumsan ut.
 Cras eu lacus augue. Nulla a pulvinar quam. Phasellus et posuere lorem, quis dictum nunc.
 Aenean quam lorem, dapibus at dictum at, fermentum et nisl. Vestibulum non dictum ante.
 Praesent rhoncus dui vitae convallis venenatis.`;
-
+//
 // Interpolacija, mozemo zapisivati string u kombinaciji sa varijablama:
 let a = 10;
 let b = 14;
