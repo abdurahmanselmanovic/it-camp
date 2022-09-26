@@ -15,3 +15,22 @@
 // };
 
 // console.log(myFunction());
+
+const myFunction = () => {
+	let a = prompt("Unesite prvi string");
+	let b = prompt("Unesite drugi string");
+	let c = "";
+	// let duzina = 0;
+	// if (a.length > b.length) {
+	// 	duzina = a.length;
+	// } else {
+	// 	duzina = b.length;
+	// }
+	// Sintaxa za ternary operator:
+	// uslov ? vrednost u slucaju ispunenja uslova: vrrednost u slucaju neispunjenja uslova
+	let duzina = a.length > b.length ? a.length : b.length;
+	for (let i = 0; i < duzina; i++) {}
+	return c;
+};
+
+console.log(myFunction());
