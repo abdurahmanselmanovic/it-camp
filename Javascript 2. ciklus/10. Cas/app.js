@@ -29,7 +29,12 @@ const myFunction = () => {
 	// Sintaxa za ternary operator:
 	// uslov ? vrednost u slucaju ispunenja uslova: vrrednost u slucaju neispunjenja uslova
 	let duzina = a.length > b.length ? a.length : b.length;
-	for (let i = 0; i < duzina; i++) {}
+	for (let i = 0; i < duzina; i++) {
+		if (i >= a.length) {
+		} else {
+			c += a[i] + b[i];
+		}
+	}
 	return c;
 };
 
