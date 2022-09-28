@@ -58,3 +58,15 @@ console.log(-1 / 0);
 
 let prom = 0xff;
 console.log(prom);
+
+// Brojevi kao objekti
+//
+let broj = new Number(14);
+console.log(broj);
+
+console.log(broj + 7);
+console.log(typeof broj);
+
+let broj2 = 10;
+
+console.log(Boolean(broj < broj2));
