@@ -32,3 +32,29 @@ console.log("401s" - 46);
 // NaN Not A Number
 
 // NaN je js rezervisana rec koja ukazuje da broj zapravo nije legalni broj
+
+// Ako ispistamo tip NaN rezultat dobijamo number
+console.log("1k" * 45);
+console.log(typeof ("1k" * 45));
+
+// Postoji metoda za proveru da li je neka vrednost NaN (broj koji nije korektan)
+// u pitanje je isNaN()
+
+console.log(isNaN(67 + "88"));
+
+console.log(isNaN(100 / "Apple"));
+
+// Infinity
+// Infinity je vrednost kada se rezultat dobije broj koji je van granica maksimalnog broja
+// prema racunanju u JavaScript
+
+console.log(20 / 0);
+
+console.log(-1 / 0);
+
+// Hexadecimalni brojevi
+
+// JavaScript interpretira constante kao heksadecimalne ako im je prefix 0x
+
+let prom = 0xff;
+console.log(prom);
