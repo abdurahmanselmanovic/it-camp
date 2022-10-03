@@ -17,7 +17,7 @@ const fudbalskiTeren = () => {
 		return "Uneti brojevi rastojanja ograde od terena nisu u opsegu od 2 do 10";
 	} else {
 		obimOgrade =
-			2 * (duzinaTerena + sirinaTerena + 4 * rastojanjeOgradeOdTerena);
+			2 * duzinaTerena + 2 * sirinaTerena + 8 * rastojanjeOgradeOdTerena;
 	}
 	return obimOgrade;
 };
