@@ -13,3 +13,4 @@ let godine = [16, 18, 18, 18, 17, 14, 15, 19];
 
 console.log(abdurahman);
 console.log(godine[5] - godine[5]);
+//
