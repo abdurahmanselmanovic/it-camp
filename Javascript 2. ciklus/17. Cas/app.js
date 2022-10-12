@@ -76,3 +76,29 @@ console.log(cars4);
 // Niz, definisan na bilo koji nacin ima tip objekat
 console.log(typeof cars3);
 console.log(typeof cars4);
+
+// Postoje 2 nacina za proveru da li je data promenljiva niz:
+// 1. Array.isArray(cars3)
+// 2. cars3 instanceof Array
+
+console.log(Array.isArray(cars3));
+console.log(cars3 instanceof Array);
+
+// Niz moze sadrzati elemente razlicitog tipa.
+
+const abdurahman = ["Abdurhaman", "Selmanovic", 14, !true];
+console.log(abdurahman);
+console.log(abdurahman[3]);
+console.log(typeof abdurahman[3]);
+
+// Niz moze da sadrzi objekte, kao sto su datumi, nizovi funkcije,........
+const niz2 = [
+	"Novi Pazar",
+	"Srbija",
+	new Date(),
+	["centar nit", "itcamp"],
+	function () {
+		return 5;
+	},
+];
+console.log(niz2);
