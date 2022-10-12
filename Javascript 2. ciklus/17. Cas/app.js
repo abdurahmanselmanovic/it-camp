@@ -65,3 +65,14 @@ cars3[2] = "Mercedes";
 console.log(cars3);
 
 // Videli smo takodje da jedan niz moze sadrzati duplikate
+
+// Jos jedan nacin definisanja nizova je preko new keyword
+const cars4 = new Array("ponedeljak", "sreda", "petak");
+console.log(cars4);
+
+// Za jednostavnost citljivost i brzinu izvrsavanja bolje je koristiti klasicni nacin
+// (preko []) definisanja nizova.
+
+// Niz, definisan na bilo koji nacin ima tip objekat
+console.log(typeof cars3);
+console.log(typeof cars4);
