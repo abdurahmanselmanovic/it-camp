@@ -59,3 +59,9 @@ console.log(cars2);
 console.log(cars2[2]);
 
 // Mozemo vrlo lako zameniti neki element drugim.
+
+const cars3 = ["Mercedes", "bmw.", "audi", "wolkswagen", "volvo"];
+cars3[2] = "Mercedes";
+console.log(cars3);
+
+// Videli smo takodje da jedan niz moze sadrzati duplikate
