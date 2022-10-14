@@ -46,7 +46,9 @@ const joinManual = (arr) => {
 	for (let element of arr) {
 		arrString += element + "_";
 	}
-	return arrString;
+	let duzina = arrString.length;
+	// return arrString.substr(0, duzina - 1);
+	return arrString.slice(0, -1);
 };
 
 console.log(joinManual(voce));
