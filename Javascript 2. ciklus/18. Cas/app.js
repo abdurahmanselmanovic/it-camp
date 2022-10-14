@@ -47,8 +47,25 @@ const joinManual = (arr) => {
 		arrString += element + "_";
 	}
 	let duzina = arrString.length;
-	// return arrString.substr(0, duzina - 1);
-	return arrString.slice(0, -1);
+	// return arrString.substr(0, duzina - 1); // prvi nacin
+	return arrString.slice(0, -1); //drugi nacin
 };
 
 console.log(joinManual(voce));
+
+// pop() metoda se koristi za brisanje poslednjem elementa niza.
+
+let kupina = voce.pop(); // vraca izbrisani element
+console.log(kupina);
+
+// unshift() metoda dodaje element na prvo mesto u nizu
+
+voce.unshift("tresnja");
+console.log(voce);
+
+voce.unshift("tresnja", "bostan", "sljiva"); // moze dodati vise elemenata na pocetku niza
+console.log(voce);
+
+// shift() metoda se koristi za brisanje prvog elementa niza
+let izbrisaniElement = voce.shift();
+console.log(izbrisaniElement);
