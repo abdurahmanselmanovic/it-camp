@@ -69,3 +69,7 @@ console.log(voce);
 // shift() metoda se koristi za brisanje prvog elementa niza
 let izbrisaniElement = voce.shift();
 console.log(izbrisaniElement);
+// DOMACI
+// Napraviti funkciju koja iz nekog niza brise sve elemente na parnim pozicjama
+// Napraviti funkciju koja iz nekog niza menja sve elemente na parnim pozicijama recju "paran broj"
+//
