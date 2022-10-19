@@ -14,3 +14,11 @@ const secondTask = (arr) => {
 let myarray = [("prvi", "drugi", "treci", "cetvrti", "peti")];
 // 0		1		 2 			3		 4
 console.log(secondTask([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]));
+
+const secondtask = (arr) => {
+	let duzina = arr.length;
+	for (let i; i <= duzina; i++) {
+		if (i % 2 === 1) {
+		}
+	}
+};
