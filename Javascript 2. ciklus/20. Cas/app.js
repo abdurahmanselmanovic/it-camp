@@ -74,7 +74,7 @@ console.log(minimum);
 // Dobijanje maximuma:
 maximum = Math.max.apply(null, brojevi);
 console.log(maximum);
-//
+
 // Pravljenje funkcije koja nam vraca minimum (maximum):
 
 const myfunction = (arr) => {
