@@ -76,7 +76,7 @@ maximum = Math.max.apply(null, brojevi);
 console.log(maximum);
 
 // Pravljenje funkcije koja nam vraca minimum (maximum):
-//
+
 const myfunction = (arr) => {
 	let minimum = Number.POSITIVE_INFINITY;
 	for (number of arr) {
