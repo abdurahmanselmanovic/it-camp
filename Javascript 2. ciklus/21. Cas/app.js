@@ -19,7 +19,7 @@ niz.forEach((element, index, array) =>
 	console.log(`${index}:${element} i treci agument je apravo ceo niz: ${array}`)
 );
 
-const brojevi = [32, 12, 42, 6, -6, 12, 31, -27, 6, 202, 34.5];
+let brojevi = [32, 12, 42, 6, -6, 12, 31, -27, 6, 202, 34.5];
 
 // map() metoda - kreira novi niz, tako sto se iterira niz na koji se primenjuje metoda
 // Vazno je napomenuti da map() metoda ne menja originalni niz.
@@ -49,3 +49,14 @@ console.log(noviniz2);
 
 // Pomocu map() metode napraviti novi niz koji vraca sve pozitivne brojeve
 // kvadrirane, a negativne onakve kakvi jesu.
+
+brojevi = [32, -2, 42, 6, -6, 12, 31, -27, 6, 202, 34.5];
+const map = brojevi.map((element) => {
+	if (element > 0) {
+		return element ** 2;
+	} else {
+		return element;
+	}
+});
+
+console.log(map);
