@@ -46,3 +46,6 @@ const noviniz2 = niz.map(function (element) {
 });
 
 console.log(noviniz2);
+
+// Pomocu map() metode napraviti novi niz koji vraca sve pozitivne brojeve
+// kvadrirane, a negativne onakve kakvi jesu.
