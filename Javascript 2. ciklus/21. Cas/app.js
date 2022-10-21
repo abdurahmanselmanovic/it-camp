@@ -60,3 +60,6 @@ const map = brojevi.map((element) => {
 });
 
 console.log(map);
+
+// 1. Pomocu map metode napraviti novi niz stringova ciji ce elementi da budu ispisani velikim slovima
+// 2. Pomocu for petlje napraviti novi niz koji ce sadrzati  samo  godine vece od 17
