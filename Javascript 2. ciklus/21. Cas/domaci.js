@@ -7,4 +7,4 @@ const myfunction = (arr) => {
 	}
 	return maximum;
 };
-console.log(myfunction([12, -32, 32, 13, 52, 32, 17]));
+console.log(myfunction([12, 32, -322, 13, 52, 32, 17]));
