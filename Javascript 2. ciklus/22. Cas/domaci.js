@@ -19,3 +19,16 @@ for (let godina of godine) {
 	}
 }
 console.log(punoletni);
+
+// 2. NACIN
+// Na ovaj nacin nije moguce odraditi adekvatno zadatak jer
+// map() metoda nam vraca niz sa istom duzinom kao originalni i
+// otuda dobijamo undefined element
+// const punoletni2 = godine.map((element) => {
+// 	if (element > 17) {
+// 	} else {
+// 		return element;
+// 	}
+// });
+
+// console.log(punoletni2);
