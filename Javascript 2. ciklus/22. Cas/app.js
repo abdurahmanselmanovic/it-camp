@@ -32,3 +32,9 @@ const niz3 = numbers.map((element, index) => {
 });
 
 console.log(niz3);
+
+const niz4 = numbers.map((element, index) => {
+	return index === 0 || index === 3 || index === 5 ? element ** 2 : element;
+});
+
+console.log(niz4);
