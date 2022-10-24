@@ -10,3 +10,25 @@ const niz = numbers.map((element) => {
 });
 
 console.log(niz);
+
+// Napraviti novi niz koji sarzi kvadratne korene elemenata postojeceg niza
+
+const niz2 = numbers.map((element) => {
+	return +Math.sqrt(element).toFixed(2);
+});
+
+console.log(niz2);
+
+console.log(typeof niz2[2]);
+
+// 4. Zadatak
+// Kvadrirati one brojeve koje imaju index 0 , 3 ,5
+const niz3 = numbers.map((element, index) => {
+	if (index === 0 || index === 3 || index === 5) {
+		return element ** 2;
+	} else {
+		return element;
+	}
+});
+
+console.log(niz3);
