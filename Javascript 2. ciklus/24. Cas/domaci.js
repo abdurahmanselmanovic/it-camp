@@ -43,7 +43,7 @@ const myfunction2 = () => {
 	return data1idata2, parnibrojevi;
 };
 console.log(myfunction2());
-
+// 2. nacin
 const firstTask = (arr) => {
 	const filtered = arr.filter((element) => element > 2);
 	const mapped = filtered.map((element) => {
@@ -56,3 +56,22 @@ const firstTask = (arr) => {
 	return lessThan10;
 };
 console.log(firstTask(niz));
+
+// Firsttask 3 nacin
+// Dozvoljeno je odjednom primeniti vise metoda
+
+const firstTasks = (arr) => {
+	const lessThan10 = arr
+		.filter((element) => element > 2)
+		.map((element) => {
+			return element < 8 ? (element * 4) / 2 : element * 7;
+		})
+		.filter((element) => {
+			return element <= 10;
+		});
+	return lessThan10;
+};
+
+console.log(firstTasks(niz));
+
+const secondTask = () => {};
