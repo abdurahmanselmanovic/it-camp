@@ -15,7 +15,6 @@ const myfunction = () => {
 		} else if (element > 2) {
 			return element * 7;
 		} else {
-			return element;
 		}
 	});
 	const filtriraniniz = noviniz.filter((element) => {
@@ -44,3 +43,16 @@ const myfunction2 = () => {
 	return data1idata2, parnibrojevi;
 };
 console.log(myfunction2());
+
+const firstTask = (arr) => {
+	const filtered = arr.filter((element) => element > 2);
+	const mapped = filtered.map((element) => {
+		// uslov ? stvar za izvrsavanje : stvar koja se inace izvrsava
+		return element < 8 ? (element * 4) / 2 : element * 7;
+	});
+	const lessThan10 = mapped.filter((element) => {
+		return element <= 10;
+	});
+	return lessThan10;
+};
+console.log(firstTask(niz));
