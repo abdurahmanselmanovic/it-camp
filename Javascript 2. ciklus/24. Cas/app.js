@@ -25,7 +25,7 @@ const godine = [15, 14, 19, 18, 17, 18, 20, 13];
 // napraviti funkciju koja vraca zbir godina koje su vece od 17.
 const myfunction = (arr) => {
 	const punoletni = arr.filter((element) => {
-		return element > 18;
+		return element > 17;
 	});
 	const zbir = punoletni.reduce((previousValue, currentValue) => {
 		return previousValue + currentValue;
@@ -34,3 +34,15 @@ const myfunction = (arr) => {
 };
 
 console.log(myfunction(godine));
+
+function sumAdult2nd(arr) {
+	const zbir = arr.reduce((prev, curr) => {
+		if (curr >= 18) {
+			return prev + curr;
+		} else {
+			return prev;
+		}
+	}, 0);
+	return zbir;
+}
+console.log(sumAdult2nd(godine));
