@@ -40,7 +40,7 @@ const myfunction2 = () => {
 	const parnibrojevi = DATA1.filter((element) => {
 		return element % 2 === 0;
 	});
-	parnibrojevi.push(10, 20);
+	parnibrojevi.unshift(10, 20);
 	return data1idata2, parnibrojevi;
 };
 console.log(myfunction2());
