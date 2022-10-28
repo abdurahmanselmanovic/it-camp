@@ -47,3 +47,5 @@ const niz8 = nizBr.filter((element) => {
 	return element <= 50 && element % 2 === 0;
 });
 console.log(niz8);
+
+// DOMACI NA GITHUB
