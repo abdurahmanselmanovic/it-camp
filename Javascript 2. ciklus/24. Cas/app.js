@@ -46,3 +46,4 @@ function sumAdult2nd(arr) {
 	return zbir;
 }
 console.log(sumAdult2nd(godine));
+//
