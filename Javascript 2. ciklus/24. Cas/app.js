@@ -45,4 +45,4 @@ function sumAdult2nd(arr) {
 	}, 0);
 	return zbir;
 }
-console.log(sumAdult2nd(godine));
+// console.log(sumAdult2nd(godine));
