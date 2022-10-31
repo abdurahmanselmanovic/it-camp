@@ -34,3 +34,26 @@ const myfunction2 = (arr2) => {
 	return niz;
 };
 console.log(myfunction2(brojevi));
+
+// U fibonacijevom nizu cije vrednosti ne prelaze 4 miliona, pronaci sumu parnih elemenata.
+
+// Fibonacijev niz je sastavljen na nacin da je element jednak zbiru prethodna dva elementa.
+
+const secondTask = () => {
+	const niz = [1, 2];
+	let i = 2;
+	while (niz[i - 2] + niz[i - 1] <= 4000000) {
+		niz.push(niz[i - 2] + niz[i - 1]);
+		i++;
+	}
+	console.log(niz);
+	const sumaParnih = niz
+		.filter((element) => {
+			return element % 2 === 0;
+		})
+		.reduce((prev, curr) => {
+			return prev + curr;
+		});
+	return sumaParnih;
+};
+console.log(secondTask());
