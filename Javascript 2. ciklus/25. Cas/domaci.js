@@ -8,3 +8,16 @@ function firstTask(arr) {
 }
 
 console.log(firstTask(nizBrojeva));
+
+const secondTask = (arr) => {
+	const kilometers = arr
+		.map(function (element) {
+			return +(element * 1.609).toFixed(1);
+		})
+		.reduce((prev, curr) => {
+			return prev + curr;
+		});
+	return kilometers;
+};
+
+console.log(secondTask(nizBrojeva));
