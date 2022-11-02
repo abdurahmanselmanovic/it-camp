@@ -7,16 +7,16 @@ const isPalindrom = (str) => {
 	return okrenutiStr === str;
 };
 console.log(isPalindrom("string"));
-
-ans = 0;
+//najveci palindrom
+najveciPalindrom = 0;
 for (let i = 999; i >= 100; i--) {
 	for (let x = 999; x >= 100; x--) {
 		const proizvod = i * x;
 		let okrenutiProizvod = proizvod.toString().split("").reverse().join("");
 		if (proizvod == okrenutiProizvod) {
-			ans = proizvod;
+			najveciPalindrom = Math.max(najveciPalindrom, proizvod);
 		}
 	}
 }
 
-console.log(ans);
+console.log(najveciPalindrom);
