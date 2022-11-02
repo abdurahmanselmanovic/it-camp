@@ -12,3 +12,35 @@ const adultArr = godine.filter((element) => element >= 18);
 console.log(adultArr);
 const isEveryAdult2 = adultArr.every((element) => element >= 18);
 console.log(isEveryAdult2);
+
+// some() metoda ispituje da li bar jedan element nimza zadovoljava odredjeni uslov. Takodje vraca boolean.
+
+const isSomebodyAdult = godine.some((element) => {
+	return element >= 18;
+});
+console.log(isSomebodyAdult);
+
+// find() metoda nam vraca prvi element koji ispunjava odredjeni uslov
+
+const grupa = [
+	"Imran",
+	"Muhamed",
+	"Ahmed",
+	"Muusa",
+	"Amina",
+	"Harun",
+	"Abdurahman",
+	"Talib",
+];
+
+const firstElementPassedCondition = grupa.find((element) => {
+	return element.length >= 8;
+});
+console.log(firstElementPassedCondition);
+
+// findIndex() metoda nam vraca
+
+const firstIndexPassedContidion = grupa.findIndex((element) => {
+	return element.length >= 8;
+});
+console.log(firstIndexPassedContidion);
