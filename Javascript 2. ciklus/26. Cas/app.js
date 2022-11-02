@@ -38,7 +38,8 @@ const firstElementPassedCondition = grupa.find((element) => {
 });
 console.log(firstElementPassedCondition);
 
-// findIndex() metoda nam vraca
+// findIndex() metoda nam vraca index prvog elementa koji je prosao uslov zadat unutar funkcije.
+// ako nijedan element ne ispunjava uslov, metoda nam vraca -1
 
 const firstIndexPassedContidion = grupa.findIndex((element) => {
 	return element.length >= 8;
