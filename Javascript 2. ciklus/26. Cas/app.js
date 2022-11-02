@@ -45,3 +45,8 @@ const firstIndexPassedContidion = grupa.findIndex((element) => {
 	return element.length >= 8;
 });
 console.log(firstIndexPassedContidion);
+// Array.from() metoda nam vraca niz iz bilo kojeg objekta koji je iterirajuci odnosno koji ima length svojstvo
+// Ova metoda nam vraca niz gde je svaki element jedan karakter strringa koji pretvaramo u niz.
+const recenica = "Ovo mora biti niz";
+const mustBeArray = Array.from(recenica);
+console.log(mustBeArray);
