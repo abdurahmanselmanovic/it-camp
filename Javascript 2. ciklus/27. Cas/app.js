@@ -55,5 +55,5 @@ const svastara = [
 const svastaraSredjena = svastara.flat();
 console.log(svastaraSredjena);
 
-const odAdoZ = svastaraSredjena.sort();
-console.log(odAdoZ);
+const odZdoA = svastara.flat().sort().reverse();
+console.log(odZdoA);
