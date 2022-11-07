@@ -4,4 +4,5 @@
 console.log(Boolean(!!"Muhamed"));
 
 const niz = [1, 2, 3, 4, 5, 6, 7];
-console.log(sizeOf(niz));
+
+console.log(niz.push("dog", 2));
