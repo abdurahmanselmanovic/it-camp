@@ -17,3 +17,16 @@ console.log(car.boja);
 console.log(car["marka"]);
 // 3.
 console.log(car?.boja);
+
+// Objekti takodje mogu sadrzati metode
+// Metode su sadrzane unutar objekta kako definicija funkcije
+
+const person = {
+	JMBG: "1306005783971",
+	ime: "Muhamed",
+	prezime: "Krkmisevic",
+	mesto: "Lug",
+	imeIPrezime: function () {
+		return this.ime + " " + this.prezime;
+	},
+};
