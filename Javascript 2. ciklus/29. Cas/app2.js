@@ -30,3 +30,16 @@ const person = {
 		return this.ime + " " + this.prezime;
 	},
 };
+
+// this predstavlja referencu na neki objekat.
+// this nije promenljiva vec keyword (rezervisana rec) u JavaScript_u.
+// Vrednost this se ne moze promeniti
+
+console.log(person);
+
+console.log(person.JMBG);
+
+console.log(person.imeIPrezime());
+
+// Napraviti objekat student koji ce da ima vrednosti (po zelji), svojstava:
+// ime, prezime, broj indeksa, ocene(niz svih ocena koje student ima u trenutnoj godini), prosekOcena(funkcija koja na osnovu niza ocene vraca prosek datih ocena)
