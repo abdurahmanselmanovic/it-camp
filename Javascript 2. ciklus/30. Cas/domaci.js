@@ -2,7 +2,7 @@ const objekat = {
 	ime: "Abdurahman",
 	prezime: "Selmanovic",
 	brojindeksa: "032939128",
-	ocene: [1, 1, 1, 1, 1, 4],
+	ocene: [7.9, 10, 6, 5, 8],
 	prosekOcena: function () {
 		let brojac = 0;
 		let zbirBrojeva = 0;
