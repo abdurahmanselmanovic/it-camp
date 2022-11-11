@@ -1,4 +1,3 @@
-const myfunc = () => {};
 const objekat = {
 	ime: "Abdurahman",
 	prezime: "Selmanovic",
