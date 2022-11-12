@@ -76,4 +76,3 @@ const myCar = {
 	menjac: "automatski",
 	kontakt: [06222, 02200332],
 };
-// 
