@@ -120,4 +120,5 @@ myCar.povecanjeBrzine(120);
 // myCar.ukoci();
 myCar.smanjenjeBrzine(20);
 myCar.smanjenjeBrzine(60);
+myCar.ukoci();
 console.log(myCar.trenutnaBrzina);
