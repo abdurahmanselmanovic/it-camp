@@ -75,4 +75,49 @@ const myCar = {
 	pogon: "prednji",
 	menjac: "automatski",
 	kontakt: [06222, 02200332],
+	servis: {
+		datum: "04, maj",
+		km: 23000,
+		serviser: "Pasovic",
+	},
+	udaran: true,
 };
+
+console.log(myCar["menjac"]);
+console.log(myCar.servis["datum"]);
+console.log(myCar.servis.datum);
+console.log(myCar["servis"]["datum"]);
+
+myCar.trenutnaBrzina = 0;
+
+myCar.maksimalnaBrzina = 260;
+
+myCar.povecanjeBrzine = function (brzina) {
+	if (this.trenutnaBrzina + brzina > this.maksimalnaBrzina) {
+		console.log(`Nije moguce voziti vise od maksimalne brzine.`);
+	} else if (brzina < 0 || isNaN(brzina)) {
+		console.log(`Niste uneli adekvatno povecanje brzine.`);
+	} else {
+		this.trenutnaBrzina += brzina;
+	}
+};
+
+myCar.smanjenjeBrzine = function (brzina) {
+	if (this.trenutnaBrzina - brzina < 0) {
+		console.log(`Nije moguce voziti sporije od 0Kmh.`);
+	} else if (brzina < 0 || isNaN(brzina)) {
+		console.log(`Niste uneli adekvatno smanjenje brzine.`);
+	} else {
+		this.trenutnaBrzina -= brzina;
+	}
+};
+
+myCar.ukoci = function () {
+	this.trenutnaBrzina = 0;
+};
+
+myCar.povecanjeBrzine(120);
+// myCar.ukoci();
+myCar.smanjenjeBrzine(20);
+myCar.smanjenjeBrzine(60);
+console.log(myCar.trenutnaBrzina);
