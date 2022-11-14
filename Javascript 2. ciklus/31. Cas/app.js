@@ -18,7 +18,10 @@ myObject.setLaunguage = function (jezik) {
 myObject.nickName = " ";
 myObject.setNickName = function () {
 	this.nickName =
-		this.firstName[0] + this.firstName[1] + this.lastName[0] + this.lastName[1];
+		this.firstName[0].toUpperCase() +
+		this.firstName[1] +
+		this.lastName[0].toLowerCase() +
+		this.lastName[1];
 };
 console.log(myObject.setLaunguage("srpski"));
 console.log(myObject.setNickName());
