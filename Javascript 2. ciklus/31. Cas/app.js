@@ -28,5 +28,3 @@ console.log(myObject.setNickName());
 console.log(myObject);
 console.log(myObject.language);
 console.log(myObject.nickName);
-
-// 
