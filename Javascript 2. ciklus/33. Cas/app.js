@@ -21,7 +21,11 @@ function povecajZa20() {
 	this.satnaKarta += this.satnaKarta * 0.2;
 	this.dnevnaKarta += this.dnevnaKarta * 0.2;
 	this.mesecnaKarta += this.mesecnaKarta * 0.2;
-	return ` Nove vrednost za parking karte su ${this.satnaKarta},${this.dnevnaKarta},${this.mesecnaKarta} `;
+	return {
+		satnaKarta: this.satnaKarta,
+		dnevnaKarta: this.dnevnaKarta,
+		mesecnaKarta: this.mesecnaKarta,
+	};
 }
 
 console.log(povecajZa20.call(automobil.garaza));
