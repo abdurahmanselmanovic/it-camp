@@ -27,12 +27,12 @@ let rec2 = "druga rec";
 let rec3 = "";
 let duzina = rec1.length > rec2.length ? rec1.length : rec2.length;
 for (let i = 0; i < duzina; i++) {
-  if (rec1[i] === undefined) {
-    rec3 += rec2[i];
-  } else if (rec2[i] === undefined) {
-    rec3 += rec1[i];
-  } else {
-    rec3 += rec1[i] + rec2[i];
-  }
+	if (rec1[i] === undefined) {
+		rec3 += rec2[i];
+	} else if (rec2[i] === undefined) {
+		rec3 += rec1[i];
+	} else {
+		rec3 += rec1[i] + rec2[i];
+	}
 }
 console.log(rec3);
