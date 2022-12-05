@@ -5,3 +5,4 @@ console.log(x);
 
 // let x; kasnija deklaracija nije moguca
 // const x; kasnija deklaracija nije moguca
+//
