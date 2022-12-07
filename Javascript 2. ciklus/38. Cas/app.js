@@ -44,6 +44,8 @@ function lookUpProfile(name, prop) {
 	if (objectWithName !== undefined) {
 		if (Object.keys(objectWithName).includes(prop)) {
 			return objectWithName[`${prop}`];
+		} else {
+			return `No such property`;
 		}
 	} else {
 		return `No such contact.`;
