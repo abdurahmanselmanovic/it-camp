@@ -7,11 +7,3 @@ var library = [
 		libraryID: 3245,
 	},
 ];
-
-function compare_to_sort(x, y) {
-	if (x.title < y.title) return -1;
-	if (x.title > y.title) return 1;
-	return 0;
-}
-
-console.log(library.sort(compare_to_sort));
