@@ -5,3 +5,9 @@
 // import i export statements
 
 // statements (naredbe).
+
+import zbir from "./functions.js";
+import { br } from "./functions.js";
+
+console.log(zbir(4, 6));
+console.log(br);
