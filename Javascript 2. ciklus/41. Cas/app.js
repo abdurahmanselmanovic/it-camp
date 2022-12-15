@@ -3,4 +3,3 @@ function func2() {
 }
 
 func2();
-//
