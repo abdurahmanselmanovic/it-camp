@@ -14,18 +14,26 @@
 // console.log(myFunc2());
 // Poznata je cinjenica da kada se izvrsi funkcija sve njene lokalne promenljive pokupi 'garbage' kolektor i one prestaju da postoje u memoriji. To nije slucaj ako postoji funkcija koja zahteva koriscenje promenljivih iz domena druge funkcije. To se najcesce postize ugradjivanjem funckije unutar druge funkcije
 
-function myfunc() {
-	let broj = 4;
-	let predmet = "stolice";
-	function myfunc2(arg) {
-		console.log(arg + broj);
-	}
-	myfunc2(20);
-	return `To je bio primer Closure u js-u`;
-}
+// function myfunc() {
+// 	let broj = 4;
+// 	let predmet = "stolice";
+// 	function myfunc2(arg) {
+// 		console.log(arg + broj);
+// 	}
+// 	myfunc2(20);
+// 	return `To je bio primer Closure u js-u`;
+// }
 
-console.log(myfunc());
+// console.log(myfunc());
 
 // Closure je funkcija koja zahteva koriscenje promenljivih iz domena druge funkcije
 
-s;
+function mojafunckija() {
+	console.log("Pocetak glavne funkcije");
+	function sporednafunkcija() {
+		console.log("ovo je radnja sporedne funkcije");
+	}
+	return sporednafunkcija;
+}
+
+mojafunckija()();
