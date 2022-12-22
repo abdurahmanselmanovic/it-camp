@@ -51,4 +51,3 @@ function callback() {
 
 setTimeout(callback, 5000);
 func1();
-// 
