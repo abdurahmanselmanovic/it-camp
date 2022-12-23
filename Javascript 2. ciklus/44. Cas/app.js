@@ -17,6 +17,9 @@ const imatiCas = new Promise((resolve, reject) => {
 
 imatiCas
 	.then(() => console.log("Odrzana je rec. Imali smo cas!"))
-	.catch(() => {
-		console.log("Nismo mali cas");
-	});
+	.catch(() => console.log("Nismo imali cas"))
+	.finally(() => console.log("Poruka koja se ispisuje u svakom slucaju")); //
+
+// then() se izvrsava u slucaju da se desi resolve()
+// catch() se izvrsava u slucaju da se desi reject()
+// finally() se izvrsava u svakom slucaju.
