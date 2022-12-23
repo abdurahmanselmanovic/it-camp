@@ -41,13 +41,13 @@
 // glavniPosao(callback);
 // setTimeout(callback, 1000);
 
-function func1() {
-	console.log("lalalalla");
-}
+// function func1() {
+// 	console.log("lalalalla");
+// }
 
-function callback() {
-	console.log("\n ss");
-}
+// function callback() {
+// 	console.log("\n ss");
+// }
 
-setTimeout(callback, 5000);
-func1();
+// setTimeout(callback, 5000);
+// func1();
