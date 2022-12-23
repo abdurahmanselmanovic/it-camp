@@ -3,3 +3,5 @@ console.log(2);
 setTimeout(() => console.log(3), 10);
 console.log(4);
 setTimeout(() => console.log(5), 0);
+
+// Promise je JS objekat koji predstavlja mesto za rezultate asinhrone funkcije sve dok traje izvrsavanje asinhone operacije.
