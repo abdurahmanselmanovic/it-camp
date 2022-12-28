@@ -37,3 +37,4 @@ newObj.age === 22 ? console.log(newObj) : console.log("error");
 
 // += povecava i dodaje vrednost
 // ++ increment (dodaje za 1)
+//
