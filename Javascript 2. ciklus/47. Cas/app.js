@@ -21,7 +21,7 @@ console.log(newCar);
 
 newCar.fullName();
 
-class user {
+class User {
 	constructor(name, surname) {
 		this.name = name;
 		this.surname = surname;
@@ -31,8 +31,27 @@ class user {
 	}
 }
 
-const newUser = new user("abdurahman", "selmanovic");
+const newUser = new User("abdurahman", "selmanovic");
 
 console.log(newUser);
 
 newUser.fullName();
+
+// Create a new ckass user with data like name, lName, yearsOfBirth
+
+class User1 {
+	constructor(name, lname, yearOfBirth) {
+		this.name = name;
+		this.lname = lname;
+		this.yearOfBirth = yearOfBirth;
+		this.age = this.godine(yearOfBirth);
+	}
+	godine() {
+		return 2022 - this.yearOfBirth;
+	}
+}
+
+const newUser1 = new User1("abdurahman", "selmanovic", 2008);
+
+console.log(newUser1);
+newUser1.godine();
