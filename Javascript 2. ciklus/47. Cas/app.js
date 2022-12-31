@@ -93,15 +93,15 @@ class AdditionalInfo extends User1 {
 	}
 	numberHandler(state, phoneNumber) {
 		this.findState = this.statesArr.find((s) => s.state === state);
-		return phoneNumber.replace(phoneNumber[0], this.findState.cId);
+		return phoneNumber.replace(phoneNumber[0], this.findState.cId + "  ");
 	}
 }
 
 const Additional = new AdditionalInfo(
 	"rifata b",
 	"novi pazar",
-	"Serbia",
-	"074213123"
+	"USA",
+	"038192381293812"
 );
 
 console.log(Additional);
