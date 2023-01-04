@@ -75,3 +75,17 @@ console.log(Additional.ispis());
 // // // // // // // // \\ \\ \\ \\ \\ \\ \\ \\
 // // // // // // // //   \\ \\ \\ \\ \\ \\ \\ \\
 // // // // // // // //     \\ \\ \\ \\ \\ \\ \\ \\
+
+class Car {
+	constructor(carName, carType) {
+		this.carName = carName;
+		this.carType = carType;
+	}
+
+	showAtrr() {
+		console.log(this.carName, this.carType);
+	}
+}
+const newCar = new Car("audi", "limo");
+
+newCar.showAtrr();
