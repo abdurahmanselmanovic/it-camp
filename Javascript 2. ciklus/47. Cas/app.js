@@ -1,6 +1,13 @@
 // Node je runtime koji vrsi egzekuiju i kompajlovanje javascript koda
 // Node ima mnostvo svojih modula, najpoznatiji su fs(fileSystem) i http modul
 
+// Klase(Class ) si izrada modela podatka unutar aplikacije(web ili bilo koje druge)
+// Svaka klasa mora da ima metodu constructor(){}, a onda vrsi funkciju glavne funkcije(metode) unutar klase
+// Pomocu constructor metode se inicijalizuju glavani podaci unutar klase
+// inicijalizacija promenljivih i dodela vrednosti njima vrsi se pomocu this metode(npr. this.name)
+// metode su funkcije unutar klase koje takodje mogu vrsiti inicijalizaciju promenljivih i obradu podataka
+// Svak klasa mora imati constructor metodu
+
 // const fs = require("fs");
 
 // fs.writeFile("text.txt", "sadasd");
@@ -57,7 +64,7 @@ console.log(newUser1);
 newUser1.godine();
 
 class AdditionalInfo extends User1 {
-	statesArr = [
+	#statesArr = [
 		{
 			state: "USA",
 			cId: "+1",
@@ -92,7 +99,7 @@ class AdditionalInfo extends User1 {
 		this.number = this.numberHandler(this.state, this.phoneNumber);
 	}
 	numberHandler(state, phoneNumber) {
-		this.findState = this.statesArr.find((s) => s.state === state);
+		this.findState = this.#statesArr.find((s) => s.state === state);
 		return phoneNumber.replace(phoneNumber[0], this.findState.cId + "  ");
 	}
 }
@@ -105,3 +112,5 @@ const Additional = new AdditionalInfo(
 );
 
 console.log(Additional);
+
+// (#) NE ISPISUJE  SE STATESARR
