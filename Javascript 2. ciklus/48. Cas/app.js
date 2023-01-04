@@ -72,5 +72,6 @@ const Additional = new AdditionalInfo(
 );
 
 console.log(Additional.ispis());
-
-//
+// // // // // // // // \\ \\ \\ \\ \\ \\ \\ \\
+// // // // // // // //   \\ \\ \\ \\ \\ \\ \\ \\
+// // // // // // // //     \\ \\ \\ \\ \\ \\ \\ \\
