@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div id="osam" class="osamdeset">
+				<h1 style="text-align: center" id="text">ovde se menja</h1>
+			</div>
+			<div class="sidebar">
+				<input type="color" id="colorInputColor" />
+				<input
+					type="button"
+					id="colorButton"
+					value="Click to change bg color "
+					onclick="changeColor()"
+				/><br /><br />
+				<input type="color" id="colorInputColor1" />
+
+				<input
+					type="button"
+					id="colorButton1"
+					value="Click to change text bg color "
+					onclick="changeColor1()"
+				/><br /><br />
+				<input type="color" id="colorInputColor2" />
+
+				<input
+					type="button"
+					id="colorButton2"
+					value="Click to change text color "
+					onclick="changeColorText()"
+				/>
+			</div>
+		</div>
+
+		<div class="test"></div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
