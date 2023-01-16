@@ -7,3 +7,6 @@ A pureComponent is a special type of component that is similar to a component, b
 or optimizations. When a component is a pureComponent, react will do a shallow comparasion of the props and state before re-rendering the component. That means that if props and state have not changed, the component wwill not be re-rendering. This can lead to a perfomance boost in some cases, but if it's not used properly, it can lead to unexpected behaviour.
 
 Bottomline, a component is the most basic and most used for building a block in react and pure component is used when it needs some special optimizations.
+
+Props(properties) is a way for manipulating data and states
+We can send data through props and we can send data to parent through props
