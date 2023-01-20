@@ -1,0 +1,16 @@
+.StyledInput {
+	margin-top: 10px;
+	background-color: brown;
+	color: white;
+	width: 40%;
+	height: 30px;
+	max-width: auto;
+}
+
+.submitButton {
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	height: 40px;
+	width: 100px;
+}
