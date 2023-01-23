@@ -5,6 +5,7 @@ import StyledHeader from "./components/StyledHeader/styleHeader";
 import { StyledButton } from "./components/StyledButton/StyleButton";
 import { useState, useEffect } from "react";
 import StyledInput from "./components/StyledInput/StyledInput";
+import CustomHeader from "./components/CustomHeader/CustomHeader";
 
 function App() {
 	const [innerText, setInnnerText] = useState("");
@@ -25,6 +26,10 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
+				<CustomHeader height={10}>
+					<h1>HAHAHA</h1>
+					<h2>SAWDAWDASD</h2>
+				</CustomHeader>
 				<img src={logo} className="App-logo" alt="logo" />
 				<StyledHeader innerText="header" />
 				<StyledButton innerText={innerText} onClickHandler={buttonClicked} />
