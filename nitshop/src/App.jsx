@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
-import ToDo from "./components/ToDo/ToDo";
+import GridCmp from "./components/Grid/GridCmp";
 
-function App() {
+const App = () => {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<ToDo></ToDo>
-			</header>
-		</div>
+		<>
+			<GridCmp />
+		</>
 	);
-}
+};
 
 export default App;
