@@ -1,6 +1,7 @@
 import React from "react";
 import CustomDiv from "../CustomDiv/CustomDiv";
 import Grid from "@mui/material/Grid";
+import { Button } from "@mui/material";
 
 const GridCmp = () => {
 	return (
@@ -28,6 +29,7 @@ const GridCmp = () => {
 			<Grid item xs={6}>
 				<CustomDiv width="100%"> xs=6 </CustomDiv>
 			</Grid>
+			<Button variant="contained">Contained</Button>
 		</Grid>
 	);
 };
